@@ -6,6 +6,5 @@
 
 Console.WriteLine("Введите целое трехзначное число");
 int x = Convert.ToInt32(Console.ReadLine());
-Console.Write("Вторая цифра числа = ");
 int x2 = x/10%10;
-Console.Write (x2);
+Console.Write($"Вторая цифра числа = {x2}");
