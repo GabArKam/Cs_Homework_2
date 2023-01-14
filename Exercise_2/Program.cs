@@ -12,7 +12,7 @@ int x3 = 0;
 if(x<100 && x>-100) Console.Write("Третьей цифры нет");
 else
 {
-    while (y>999)
+    while (y>999 || y<-999)
     {
         y = y/10;
     }
