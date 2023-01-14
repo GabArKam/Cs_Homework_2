@@ -9,9 +9,9 @@
 Console.WriteLine("Введите неотрицательное число");
 int x = Convert.ToInt32(Console.ReadLine());
 int y = x%10;
-if(x%100>=10 && x%100<=20)Console.WriteLine($"{x} программистов");
+int z = x%100;
+if(z>=10 && z<=20)Console.WriteLine($"{x} программистов");
 else
     if(y==1) Console.WriteLine($"{x} программист");
     else if(y>1 && y<5) Console.WriteLine($"{x} программиста");
     else if(y>4 || y==0) Console.WriteLine($"{x} программистов");
-    
