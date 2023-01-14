@@ -7,6 +7,6 @@
 
 Console.WriteLine("Введите номер дня недели");
 int x = Convert.ToInt32(Console.ReadLine());
-if(x<1||x>7) Console.WriteLine("Введенное число не соответствует номеру недели");
+if(x<1||x>7) Console.WriteLine("Введенное число не соответствует номеру дня недели");
 else if(x==6||x==7) Console.Write("Выходной день");
     else Console.WriteLine("Будний день");
