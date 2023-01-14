@@ -7,4 +7,4 @@
 Console.WriteLine("Введите целое трехзначное число");
 int x = Convert.ToInt32(Console.ReadLine());
 int x2 = x/10%10;
-Console.Write($"Вторая цифра числа = {x2}");
+Console.Write($"Вторая цифра числа = {Math.Abs(x2)}");
