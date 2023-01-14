@@ -9,7 +9,7 @@ Console.WriteLine("Введите число");
 int x = Convert.ToInt32(Console.ReadLine());
 int y = x;
 int x3 = 0;
-if(x<100) Console.Write("Третьей цифры нет");
+if(x<100 && x>-100) Console.Write("Третьей цифры нет");
 else
 {
     while (y>999)
@@ -17,5 +17,5 @@ else
         y = y/10;
     }
         x3 = y%10;
-    Console.Write($"{x3} является третей цифрой числа {x}");
+    Console.Write($"{Math.Abs(x3)} является третей цифрой числа {x}");
 }
